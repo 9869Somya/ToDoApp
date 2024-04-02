@@ -1,0 +1,38 @@
+.todo {
+  border: none;
+  background-color: rgb(202, 108, 155);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 40px;
+}
+.todoinput {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px solid black;
+  gap: 10px;
+  background-color: rgb(250, 215, 221);
+  padding: 2%;
+  border-radius: 10px;
+}
+.todoinput label {
+  font-size: 40px;
+  font-weight: bold;
+}
+.todoinput input {
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 5px;
+  height: 30px;
+}
+.todoinput button {
+  margin-right: 40%;
+  margin-left: 40%;
+  height: 30px;
+  background-color: rgb(32, 114, 161);
+  color: aliceblue;
+  border-radius: 5px;
+}

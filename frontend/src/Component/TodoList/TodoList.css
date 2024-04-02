@@ -1,0 +1,31 @@
+.main {
+  border: 1px solid black;
+}
+.main div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.todoname {
+  border: 1px solid black;
+  gap: 15%;
+}
+/* .checkBox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+} */
+.checkBox.checked::before {
+  /* content: "\2713"; */
+  font-size: 16px;
+  color: #6db65b;
+}
+.task.isCompleted {
+  text-decoration: line-through;
+  color: #999;
+}
